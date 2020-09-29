@@ -39,7 +39,7 @@ workaround. Original code is taken from
 %autosetup -n %{upstream_name}-%{upstream_version} -p1
 
 %build
-%{__perl} Makefile.PL INSTALLDIRS=vendor
+perl Makefile.PL INSTALLDIRS=vendor
 
 %make_build
 
