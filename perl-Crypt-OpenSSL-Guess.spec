@@ -5,7 +5,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    1
+Release:    2
 
 Summary:    Guess OpenSSL include path
 License:    GPLv1+ or Artistic
@@ -36,12 +36,12 @@ workaround. Original code is taken from
 'inc/Module/Install/PRIVATE/Net/SSLeay.pm' by the Net::SSLeay manpage.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%autosetup -n %{upstream_name}-%{upstream_version} -p1
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
 
-%make
+%make_build
 
 %check
 %make test
