@@ -1,11 +1,11 @@
 %define upstream_name    Crypt-OpenSSL-Guess
-%define upstream_version 0.11
+%define upstream_version 0.13
 
 %{?perl_default_filter}
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    2
+Release:    1
 
 Summary:    Guess OpenSSL include path
 License:    GPLv1+ or Artistic
