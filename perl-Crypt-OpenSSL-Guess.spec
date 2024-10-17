@@ -10,7 +10,7 @@ Release:    1
 Summary:    Guess OpenSSL include path
 License:    GPLv1+ or Artistic
 Group:      Development/Perl
-Url:        http://metacpan.org/release/%{upstream_name}
+Url:        https://metacpan.org/release/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Crypt/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires: perl(Config)
