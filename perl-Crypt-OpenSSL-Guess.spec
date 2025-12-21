@@ -13,6 +13,7 @@ Group:      Development/Perl
 Url:        https://metacpan.org/release/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Crypt/%{upstream_name}-%{upstream_version}.tar.gz
 
+BuildRequires:	make
 BuildRequires: perl(Config)
 BuildRequires: perl(Exporter)
 BuildRequires: perl(ExtUtils::MakeMaker)
