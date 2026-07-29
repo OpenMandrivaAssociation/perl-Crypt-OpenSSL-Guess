@@ -4,7 +4,7 @@
 %{?perl_default_filter}
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
+Version:    %{upstream_version}
 Release:    1
 
 Summary:    Guess OpenSSL include path
